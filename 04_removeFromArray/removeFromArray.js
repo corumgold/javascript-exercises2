@@ -1,8 +1,7 @@
-function removeFromArray() {
-    let args = [...arguments]
-    let array = args[0];
-    let indexedRemove = array.indexOf(args.length);
-    return array.splice(indexedRemove, 1)
+function removeFromArray(...args) {
+    let array = args[0]
+    let newArray = [];
+    
 };
 // Do not edit below this line
 module.exports = removeFromArray;
